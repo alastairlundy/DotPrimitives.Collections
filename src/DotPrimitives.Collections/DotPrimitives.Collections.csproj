@@ -59,6 +59,10 @@
         <PackageReference Include="Microsoft.Bcl.Hashcode" Condition="'$(TargetFramework)' == 'netstandard2.0'"
                           Version="6.0.0"/>
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Groupings\Extensions\" />
+    </ItemGroup>
     
 
 </Project>
